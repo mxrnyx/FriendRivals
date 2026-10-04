@@ -1,0 +1,17 @@
+<bg xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:noNamespaceSchemaLocation='https://monkeymanboy.github.io/BSML-Docs/BSMLSchema.xsd'>
+  <vertical spacing='1' pad='2'>
+    <horizontal preferred-width='70'>
+      <text text='~status-text' align='Center' word-wrapping='true' font-size='3.5' />
+    </horizontal>
+
+    <vertical preferred-width='70'>
+      <slider-setting text='Добавить песен' hover-hint='Сколько новых песен (самых свежих) добавить в плейлист за одно нажатие' value='song-limit' min='10' max='200' increment='10'
+                      integer-only='true' apply-on-change='true' bind-value='true' />
+    </vertical>
+
+    <horizontal>
+      <primary-button text='Обновить плейлист' interactable='~can-create' on-click='create-click' />
+      <button text='Обновить друзей' interactable='~is-idle' on-click='refresh-click' />
+    </horizontal>
+  </vertical>
+</bg>

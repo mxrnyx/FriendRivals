@@ -1,0 +1,7 @@
+<bg xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:noNamespaceSchemaLocation='https://monkeymanboy.github.io/BSML-Docs/BSMLSchema.xsd'>
+  <vertical>
+    <page-button event-click='friend-list#PageUp' direction='Up' />
+    <list id='friend-list' expand-cell='true' stick-scrolling='true' />
+    <page-button event-click='friend-list#PageDown' direction='Down' />
+  </vertical>
+</bg>

@@ -1,0 +1,21 @@
+{
+  "$schema": "https://raw.githubusercontent.com/bsmg/BSIPA-MetadataFileSchema/master/Schema.json",
+  "id": "FriendRivals",
+  "name": "Friend Rivals",
+  "author": "mxrnyx",
+  "version": "1.0.0",
+  "description": "Сравнивает ваши скоры BeatLeader с другом и создаёт плейлист карт, где друг обыграл вас.",
+  "gameVersion": "1.40.8",
+  "links": {
+    "project-home": "https://github.com/mxrnyx/FriendRivals",
+    "project-source": "https://github.com/mxrnyx/FriendRivals"
+  },
+  "dependsOn": {
+    "BSIPA": "^4.3.0",
+    "BeatSaberMarkupLanguage": "^1.12.0",
+    "SiraUtil": "^3.1.0",
+    "SongCore": "^3.14.0",
+    "BeatSaberPlaylistsLib": "^1.7.0",
+    "BeatLeader": ">=0.10.0"
+  }
+}
